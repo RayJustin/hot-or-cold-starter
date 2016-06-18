@@ -12,7 +12,6 @@ $(document).ready(function(){
   		$(".overlay").fadeOut(1000);
   	});
 
-
 });
 
 // Set random number & count //
@@ -93,8 +92,4 @@ function incrCount(){
 function newRandom(){
 	randomNum = Math.floor(Math.random()*100+1);
 }
-
-
-
-
 
